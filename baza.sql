@@ -8,3 +8,4 @@ CREATE TABLE IF NOT EXISTS `uzytkownicy` (
 ) ENGINE=MyISAM DEFAULT CHARSET=utf8 AUTO_INCREMENT=1;
 INSERT INTO `uzytkownicy` (`id`, `login`, `haslo`, `haslo2`, `email`)
    VALUES (1, 'admin', 'password', 'password', 'admin@admin.pl');
+//rere
