@@ -14,7 +14,7 @@ public function login() {
   $this->load->helper('form');
   $this->load->library('form_validation');
   //set validation set_rules
-  $this->form_validation->set_rules('nick', 'Nick', 'required|alpha_numeric')
+  $this->form_validation->set_rules('nick', 'Nick', 'required|alpha_numeric');
   $this->form_validation->set_rules('haslo', 'Haslo', 'required');
 if ($this->form_validation->run() == false) {
   $this->load->view('templates/header');
