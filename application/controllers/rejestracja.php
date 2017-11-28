@@ -10,7 +10,7 @@ class Rejestracja extends CI_Controller {
     $this->form_validation->set_rules('nick','Nick','required|min_length[5]|max_length[16]|is_unique[uzytkownicy.nick]',
     array('required'=>'Nie wprowadziles/as nick`u.','is_unique'=>'Ten nick juz istnieje.','min_length'=>'Nick musi skladac sie z conajmniej 5 znakow.','max_length'=>'Nick nie moze byc dluzszy niz 16 znakow'));
     $this->form_validation->set_rules('haslo','Haslo','required|min_length[4]|max_length[12]',
-  array('required'=>'Nie wprowadziles/as hasla.','min_length'=>'Haslo musi skladac sie z conajmniej 5 znakow.','max_length'=>'Haslo nie moze byc dluzsze niz 16 znakow'));
+  array('required'=>'Nie wprowadziles/as hasla.','min_length'=>'Haslo musi skladac sie z conajmniej 4 znakow.','max_length'=>'Haslo nie moze byc dluzsze niz 12 znakow'));
     $this->form_validation->set_rules('potwhaslo','Potwierdzenie Hasla','required|matches[haslo]',
   array('required'=>'Musisz potwierdzic haslo.','matches'=>'Hasla sie nie zgadzaja'));
     $this->form_validation->set_rules('email','Email','required|valid_email|is_unique[uzytkownicy.email]',
