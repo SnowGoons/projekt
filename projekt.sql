@@ -30,7 +30,6 @@ CREATE TABLE `uzytkownicy` (
   `id` int(12) NOT NULL,
   `nick` varchar(16) COLLATE utf8mb4_polish_ci NOT NULL,
   `haslo` varchar(12) COLLATE utf8mb4_polish_ci NOT NULL,
-  `haslo2` varchar(12) COLLATE utf8mb4_polish_ci NOT NULL,
   `email` varchar(50) COLLATE utf8mb4_polish_ci NOT NULL,
   `imie` varchar(16) COLLATE utf8mb4_polish_ci NOT NULL,
   `nazwisko` varchar(50) COLLATE utf8mb4_polish_ci NOT NULL,
