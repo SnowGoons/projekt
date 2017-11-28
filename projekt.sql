@@ -31,7 +31,12 @@ CREATE TABLE `uzytkownicy` (
   `nick` varchar(16) NOT NULL,
   `haslo` varchar(12) NOT NULL,
   `haslo2` varchar(12) NOT NULL,
-  `email` varchar(50) NOT NULL
+  `email` varchar(50) NOT NULL,
+  `imie` varchar(16) NOT NULL,
+  `nazwisko` varchar(50) NOT NULL,
+  `kod_pocztowy` varchar(6) NOT NULL,
+  `miejscowosc` varchar(50) NOT NULL,
+  `ulica` varchar(32) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 --
