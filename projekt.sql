@@ -37,7 +37,7 @@ CREATE TABLE `uzytkownicy` (
   `kod_pocztowy` varchar(6) NOT NULL,
   `miejscowosc` varchar(50) NOT NULL,
   `ulica` varchar(32) NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+) ENGINE=InnoDB DEFAULT CHARSET=polish_ci;
 
 --
 -- Indeksy dla zrzutów tabel
