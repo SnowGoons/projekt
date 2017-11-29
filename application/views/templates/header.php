@@ -1,7 +1,7 @@
 <html>
 <head>
         <title>Aukcjoner</title>
-    <link rel="stylesheet" href="<?= base_url();?>/css/bootstrap.css">
+    <link rel="stylesheet" href="./css/bootstrap.css">
 </head>
 <body style="background-color: #CC9933">
   <div class="container">
