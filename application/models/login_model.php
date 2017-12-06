@@ -14,9 +14,9 @@ class Login_model extends CI_Model
 
     public function login($nick, $haslo)
     {
-        $this->db->where('Nick', $nick);
-        $this->db->where('Haslo', $haslo);
-        $query = $this->db->get('nick');
+        $this->db->where('nick', $nick);
+        $this->db->where('haslo', $haslo);
+        $query = $this->db->get('uzytkownicy');
 
         if($query->num_rows()>0)
         {

@@ -16,7 +16,7 @@ if ($this->form_validation->run()) {
   $haslo = $this->input->post('haslo');
   if($this->login_model->login($nick, $haslo))
   {
-    $sesion_data = array (
+    $session_data = array (
       'nick' => $nick );
   }
   $this->session->set_userdata($session_data);
